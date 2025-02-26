@@ -1,3 +1,4 @@
 # 7DayofCode
 
-## Paulo Maia/Análise de Dados [Minha Foto](FotoI.jpg)
+## Desenvolvedor (Paulo Maia)  
+<img src="assets/FotoI.jpg" width="300">
