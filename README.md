@@ -1,4 +1,5 @@
 # 7DayofCode
+# 1Day
 
-## Desenvolvedor (Paulo Maia)  
+## Desenvolvedor/Analise de Dados (Paulo Maia)  
 <img src="FotoI.jpg" width="300">
