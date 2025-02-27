@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparação de Variáveis - Solução</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+        <img src="assets/alurasemfundo.png" alt="">
+        <img src="assets/oneoraclesemfundo.png" alt=""> 
+        </div>            
+        <h1>Minha Solução Desafio 01 - 7DayCode - Alura</h1>
+        
+        <!-- Explicação da solução -->
+        <section>
+            <h2>Explicação da Solução</h2>
+            <p>A solução apresentada tem como objetivo realizar a comparação entre variáveis em JavaScript, utilizando diferentes operadores de comparação. Estes operadores são essenciais para a manipulação de dados, controle de fluxo e tomada de decisões nas aplicações.</p>
+            
+            <h3>Operadores de Comparação Utilizados:</h3>
+            <ul>
+                <li><strong>==</strong> (Igualdade de valor): Compara se os valores das variáveis são iguais.</li>
+                <li><strong>===</strong> (Igualdade estrita): Compara tanto o valor quanto o tipo das variáveis.</li>
+                <li><strong>!=</strong> (Desigualdade de valor): Verifica se os valores das variáveis são diferentes.</li>
+                <li><strong>!==</strong> (Desigualdade estrita): Verifica se o valor ou o tipo das variáveis são diferentes.</li>
+                <li><strong>&gt;</strong> (Maior que): Avalia se o valor da primeira variável é maior que o valor da segunda.</li>
+                <li><strong>&lt;</strong> (Menor que): Verifica se o valor da primeira variável é menor que o da segunda.</li>
+                <li><strong>&gt;=</strong> (Maior ou igual a): Verifica se o valor da primeira variável é maior ou igual ao da segunda.</li>
+                <li><strong>&lt;=</strong> (Menor ou igual a): Verifica se o valor da primeira variável é menor ou igual ao da segunda.</li>
+            </ul>
+            
+            <h3>Exemplo de Implementação:</h3>
+            <pre>
+                <code>
+                    let var1 = 10;
+                    let var2 = "10";
+
+                    if (var1 === var2) {
+                        console.log("As variáveis são estritamente iguais.");
+                    } else if (var1 == var2) {
+                        console.log("As variáveis têm o mesmo valor, mas tipos diferentes.");
+                    } else {
+                        console.log("As variáveis são diferentes.");
+                    }
+                </code>
+            </pre>
+            <p>Neste exemplo, ao comparar as variáveis <code>var1</code> e <code>var2</code>, o JavaScript verifica primeiro se são estritamente iguais (considerando tipo e valor). A comparação <code>var1 == var2</code> resulta em <code>true</code> devido à coerção de tipos, já que o número 10 é comparado com a string "10".</p>
+        </section>
+        
+        <h2>Abra o console para ver os resultados</h2>
+        <p>Pressione F12 ou clique com o botão direito e selecione "Inspecionar" para abrir o console.</p>                 
+        <div>    
+            
+            <button onclick="window.location.reload()">Recarregar Página</button>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2025 - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
