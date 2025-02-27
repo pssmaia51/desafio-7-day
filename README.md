@@ -1,3 +1,5 @@
 # 7DayofCode
+# 1DayofCode
 
-## Paulo Maia/Análise de Dados [Minha Foto](FotoI.jpg)
+## Paulo Maia/DEV-Analise de Dados
+<img src="FotoI.jpg" width="300">
